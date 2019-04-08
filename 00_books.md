@@ -14,7 +14,7 @@
 
 * 选读：第11、12、13、14、15、16、17、18、21章
 
-  <img src="figures/00_ir.jpg" style="width:200px" />
+  <img src="figures/00_ir.jpg" width="200px" />
 
 ### 统计自然语言处理（第2版）
 
