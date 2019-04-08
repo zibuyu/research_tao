@@ -14,21 +14,21 @@
 
 * 选读：第11、12、13、14、15、16、17、18、21章
 
-  <img src="figures/00_ir.jpg" style="width:200px" />
+  <img src="figures/00_ir.jpg" width="200px" />
 
 ### 统计自然语言处理（第2版）
 
 * 作者：宗成庆
 * 出版社：清华大学出版社；出版年：2013年；页数：570
 
-<img src="figures/00_snlp.jpg" style="width:200px"  />
+<img src="figures/00_snlp.jpg" width="200px" />
 
 ### Neural Network Methods for Natural Language Processing
 
 * 作者：Yoav Goldberg
 * 出版社：Synthesis Lectures on Human Language Technologies (Morgan & Claypool Publishers)；出版年：2017；页数：310
 
-<img src="figures/00_nn4nlp.jpg" style="width:200px"  />
+<img src="figures/00_nn4nlp.jpg" width="200px" />
 
 
 
@@ -39,7 +39,7 @@
 * 作者：赵军
 * 出版社：高等教育出版社；出版年: 2018；页数: 312
 
-<img src="figures/00_kg.jpg" style="width:200px" />
+<img src="figures/00_kg.jpg" width="200px" />
 
 ## 机器学习
 
@@ -48,14 +48,14 @@
 * 作者：周志华
 * 出版社：清华大学出版社；出版年：2016年；页数：425
 
-<img src="figures/00_ml.jpg" style="width:200px"  />
+<img src="figures/00_ml.jpg" width="200px" />
 
 ### Deep Learning
 
 * 作者：Ian Goodfellow / Yoshua Bengio / Aaron Courville
 * 出版社：MIT Press；出版年：2016年；页数：800
 
-<img src="figures/00_dl.jpg" style="width:200px"  />
+<img src="figures/00_dl.jpg" width="200px" />
 
 ### 神经网络与深度学习
 
@@ -68,7 +68,7 @@
 - 作者：李航
 - 出版社：清华大学出版社；出版年：2012；页数：235
 
-<img src="figures/00_sml.jpg" style="width:200px"  />
+<img src="figures/00_sml.jpg" width="200px" />
 
 ## 人工智能
 
@@ -78,7 +78,7 @@
 * 作者： Stuart J.Russell / Peter Norvig
 * 出版社：清华大学出版社；出版年：2013年；页数：918
 
-<img src="figures/00_ai.jpg" style="width:200px"  />
+<img src="figures/00_ai.jpg" width="200px" />
 
 ## 社会计算
 
@@ -90,4 +90,4 @@
 * 必读：第一部分、第四部分
 * 选读：第五部分、第六部分
 
-<img src="figures/00_sc.jpg" style="width:200px"  />
+<img src="figures/00_sc.jpg" width="200px" />
