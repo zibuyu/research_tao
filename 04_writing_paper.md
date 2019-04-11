@@ -34,7 +34,7 @@ NLP学术会议（甚至包括期刊）论文已经形成比较固定的结构�
 
 - **注意逻辑严谨**。严谨是学术论文的底色，从引用格式、公式符号到谋章造句，虽不至于美国法学期刊的Bluebook那么变态，都力求风格统一，行文严谨。引用、公式、拼写等方面都容易学，初学者更需要注意行文严谨，力求全文从章节、段落、句子等不同级别都逻辑严密，争取做到没有一句话没来由，没有一句话没呼应：
 
-章节层面，Introduciton提到已有方法面临的几个挑战，就要对应本文提出的几个创新思路，对应Method中的几个具体算法，对应Experiment中的几个实验验证。
+章节层面，Introduction提到已有方法面临的几个挑战，就要对应本文提出的几个创新思路，对应Method中的几个具体算法，对应Experiment中的几个实验验证。
 
 段落和句子层面，段间要注意照应，是并列、递进、转折还是总分关系，需要谋划妥当，要有相应句子或副词衔接。段内各句，有总有分，中心思想句和围绕论述句分工协作。
 
@@ -63,11 +63,11 @@ Abstract可以看做对Introduction的提要，所以我们先介绍Introduction
 
 <img src="figures/04_example_overview.png" width="200px" />
 
-5. **实验结论**。除了在”创新思路“部分图文两开花地说明本文创新工作外，还要通过合理的实验验证方法的有效性。一般要得到”our method achieves significant and consistent improvement as compared to other baselines“的结论，从而验证本文工作的创新性。
+5. **实验结论**。除了在“创新思路”部分图文两开花地说明本文创新工作外，还要通过合理的实验验证方法的有效性。一般要得到“our method achieves significant and consistent improvement as compared to other baselines”的结论，从而验证本文工作的创新性。
 
    > The experimental results on real-world datasets including Quasar-T, SearchQA and TriviaQA show that our system achieves significant and consistent improvement as compared to all baseline methods by aggregating extracted answers of all informative paragraphs. In particular, we show that our model can achieve comparable performance by selecting a few informative paragraphs, which greatly speeds up the whole DS-QA system. We will publish all source codes and datasets of this work on Github for further research explorations.
 
-有些论文最后还会体贴的总结本文的主要贡献，一般说”In summary, the key contributions are x-fold: (1)...(2)...(3)...“。这样做的好处是，可以帮助审稿人总结本文的创新点放在审稿意见中，节省不少工作量。但需要注意，这些创新点要简洁明了，不能是前文的简单重复，也不能overclaim。如果要说”首次“提出或发现，一般也要前置”to the best of our knowledge“。此外还有论文最后一段会介绍接下来几个Section结构，个人感觉对一篇8页论文可能并不需要。
+有些论文最后还会体贴的总结本文的主要贡献，一般说“In summary, the key contributions are x-fold: (1)...(2)...(3)...”。这样做的好处是，可以帮助审稿人总结本文的创新点放在审稿意见中，节省不少工作量。但需要注意，这些创新点要简洁明了，不能是前文的简单重复，也不能overclaim。如果要说”首次“提出或发现，一般也要前置“to the best of our knowledge”。此外还有论文最后一段会介绍接下来几个Section结构，个人感觉对一篇8页论文可能并不需要。
 
 对于Abstract，可以看做对Introduction的简介，最简单的做法是，以上每部分都精简为1-2句话组成Abstract皆可。如下是论文[2]的Abstract内容，可以看出与Introduction的对应关系。
 
@@ -75,11 +75,11 @@ Abstract可以看做对Introduction的提要，所以我们先介绍Introduction
 
 ## Method怎么写
 
-这部分要详细介绍本文创新方法的具体细节，由于涉及非常艰涩的细节，要采用”总-分“结构来介绍。
+这部分要详细介绍本文创新方法的具体细节，由于涉及非常艰涩的细节，要采用“总-分”结构来介绍。
 
-这部分起手”总“的部分要介绍本文任务的符号定义，以及本文方法的框架组成，或者按步骤来介绍或者按模块来写，让读者对本文方法有全景式的理解。如论文[2]的Methodology”总“的部分，就先介绍一些符号，然后分别介绍了Selector和Reader两个模块的主要功能。
+“总”的部分要介绍本文任务的符号定义，以及本文方法的框架组成，或者按步骤来介绍或者按模块来写，让读者对本文方法有全景式的理解。如论文[2]的Methodology”总“的部分，就先介绍一些符号，然后分别介绍了Selector和Reader两个模块的主要功能。
 
-然后进入”分“的部分，则需对应”总“中的框架，分别介绍各关键模块/步骤。例如，论文[2]的Methodology”分“的部分，就包括3.1 Paragraph Selector、3.2 Paragraph Reader、3.3 Learning and Prediction。读者在”总“的部分已经对方法有全景式的了解，有的放矢，就比较容易理解每个模块的具体细节。而每个”分“的部分中，又可以进一步采用”总-分“结构进行介绍，例如3.1小节做完总体介绍后，又会按照Paragraph Encoding和Question Encoding分别介绍。为了更清晰地体现”总-分“结构，可以将各“分”的部分命名并加粗。
+然后进入“分”的部分，则需对应“总”中的框架，分别介绍各关键模块/步骤。例如，论文[2]的Methodology，即“分”的部分，就包括3.1 Paragraph Selector、3.2 Paragraph Reader、3.3 Learning and Prediction。读者在“总”的部分已经对方法有全景式的了解，有的放矢，就比较容易理解每个模块的具体细节。而每个”分“的部分中，又可以进一步采用“总-分”结构进行介绍，例如3.1小节做完总体介绍后，又会按照Paragraph Encoding和Question Encoding分别介绍。为了更清晰地体现”总-分“结构，可以将各“分”的部分命名并加粗。
 
 初学者特别注意，（1）Introduction中对创新思路与方法的介绍，不要在Method中简单重复，否则会让认真通读全文的审稿人颇感厌烦。要做到前后照应，有所递进，前略后详，不妨使用“as mentioned in Section 1”来做关联。（2）Method部分往往包含大量公式，需要保证公式风格和符号使用前后统一，新符号使用均需显式解释。
 
