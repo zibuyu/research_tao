@@ -6,6 +6,8 @@
 
 [0. 自然语言处理简介](00_nlp.md)
 
-[1. 如何了解学术圈与学术动态](01_community.md)
+[1. 走近NLP学术界](01_community.md)
+
+[2. 如何通过文献掌握学术动态](02_reading_paper.md)
 
 [4. 如何写一篇合格的学术论文](04_writing_paper.md)
