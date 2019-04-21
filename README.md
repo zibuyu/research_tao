@@ -11,3 +11,5 @@
 [2. 如何通过文献掌握学术动态](02_reading_paper.md)
 
 [4. 如何写一篇合格的学术论文](04_writing_paper.md)
+
+[9. 本科生如何开始科研训练](09_undergraduate_training.md)
