@@ -12,4 +12,4 @@
 
 [4. 如何写一篇合格的学术论文](04_writing_paper.md)
 
-[9. # 本科生如何开始科研训练](09_undergraduate_training.md)
+[9. 本科生如何开始科研训练](09_undergraduate_training.md)
