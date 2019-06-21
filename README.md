@@ -14,5 +14,9 @@
 
 [4. 如何写一篇合格的学术论文](04_writing_paper.md)
 
+[8-1. 高考填报志愿如何选择计算机专业](08-1_major_cs.md)
+
+[8-2. 人工智能应该学什么、怎么学、以及去哪学](08-2_major_ai.md)
+
 [9. 本科生如何开始科研训练](09_undergraduate_training.md)
 
