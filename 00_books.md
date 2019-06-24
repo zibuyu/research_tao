@@ -66,7 +66,7 @@
 - 作者：李航
 - 出版社：清华大学出版社；出版年：2019；页数：464
 
-![](https://i.imgur.com/G0om7sh.png)
+<img src="figures/00_sml(2nd).jpg" width="200px" />
 
 ## 人工智能
 
